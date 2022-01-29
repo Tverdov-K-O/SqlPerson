@@ -11,8 +11,8 @@ namespace SqlPerson
             Log.Info("Start");
             using (AppDBContext db = new AppDBContext())
             {
-                db.People.Add(new Data.Entities.Person { Name = "Alex", Surname = "Edison", Age = 45, PhoneNumber = "+380668613391" ,Email = "Alex@gmail.com", });
-                db.People.Add(new Data.Entities.Person { Name = "Jake", Surname = "Patison", Age = 35, PhoneNumber = "+380995487123" ,Email = "Jake@gmail.com", });
+                db.People.Add(new Data.Entities.Person { Name = "Robert", Surname = "Svon", Age = 34, PhoneNumber = "+380508965845" ,Email = "Robert@gmail.com", });
+                db.People.Add(new Data.Entities.Person { Name = "Harry", Surname = "Potter", Age = 40, PhoneNumber = "+380966596585" ,Email = "Harry@gmail.com", });
                 db.SaveChanges();
             }
             Console.ReadKey();

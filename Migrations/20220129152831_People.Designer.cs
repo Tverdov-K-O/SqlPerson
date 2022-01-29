@@ -10,7 +10,7 @@ using SqlPerson.Data;
 namespace SqlPerson.Migrations
 {
     [DbContext(typeof(AppDBContext))]
-    [Migration("20220129144045_People")]
+    [Migration("20220129152831_People")]
     partial class People
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
